@@ -59,6 +59,9 @@ class _HomeScreenState extends State<HomeScreen> {
       onTap: onTapped,
       showUnselectedLabels: false,
       showSelectedLabels: false,
+      selectedItemColor: Colors.blueAccent,
+      unselectedItemColor: Colors.grey,
+      backgroundColor: Color(0xFFFAFAFA),
     );
   }
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_moneyflow/utils/themes.dart';
-import 'package:flutter_moneyflow/views/add_transaction_screen.dart';
+import 'package:flutter_moneyflow/views/home_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: Themes.lightTheme,
       darkTheme: Themes.darkTheme,
       themeMode: ThemeMode.system,
-      home: const AddTransactionScreen(),
+      home: const HomeScreen(),
     );
   }
 }
